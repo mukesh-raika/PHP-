@@ -7,6 +7,8 @@ while($sum<10){
     $sum++;
 }
 echo "<br>";
+
+
 $num=10;
 while($num>0){
 echo $num;
