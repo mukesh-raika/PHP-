@@ -1,19 +1,19 @@
 <?php
 
-// $x=10;
-// echo "before condition<br>";
+$x=10;
+echo "before condition<br>";
 
-// if($x==10){
-//     goto jump;
-// }
-// $name="info<br>";
-// echo $name;
-// //
+if($x==10){
+    goto jump;
+}
+$name="info<br>";
+echo $name;
+//
 
 
 
-// jump:
-// echo "statement is humped on line nu. 15"; 
+jump:
+echo "statement is humped on line nu. 15"; 
 
 for($i=0;$i<=10;$i++){
 
