@@ -6,13 +6,16 @@ $users=[
     ["name"=>"peter","age"=>"27","city"=>"jodhpur"], 
     
 ];
-
+echo  "<table border 1>";
 foreach($users as  $user){
-    echo "<br>";
+      echo "<tr>";
     foreach($user as $key=> $item){
+        echo "<td>";
         echo  "$key is $item";
-        echo "<br>";
+        echo "</td>";
     }
 }
-echo "<br>"; echo "<br>";
+   echo "</tr>";
+
+echo "</table>";
 ?>
