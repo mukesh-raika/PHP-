@@ -1,5 +1,5 @@
 <?php
-test();
+
 function test(){
     echo "test function called<br>";
     
@@ -8,6 +8,6 @@ function test(){
     }
     apple();
 }
-
+test();
 
 ?>
