@@ -3,7 +3,8 @@
  echo $user[0];
  echo "<br>";
 
-
+                  //  array in loop
+                  
 $users = ["anil","sidhu","coder"];
 
 foreach($users as $user){
