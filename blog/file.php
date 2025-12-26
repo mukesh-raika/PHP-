@@ -9,4 +9,4 @@ move_uploaded_file($_FILES['fileUpload']['tmp_name'],$upload_path)
 }else{
     die("no file found");
 }
-?>
+?> 
