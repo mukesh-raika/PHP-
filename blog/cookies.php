@@ -1,6 +1,6 @@
 <?php
 
-setcookie("friut","apple",time()+(86400));
+setcookie("friut","apple",time()+5);
 setcookie("color","red",time()+86400);
  if(isset($_COOKIE['friut'])){
     echo 'curent friut is '.($_COOKIE['friut']);
