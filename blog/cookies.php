@@ -9,9 +9,9 @@ setcookie("color","red",time()+86400);
  }
 echo "<br>";
  if(isset($_COOKIE['color'])){
-    echo  'curent color is ' .($_COOKIE['color']);
+    echo  'curent  is ' .($_COOKIE['color']);
  }else{
-    echo "no color set";
+    echo "no cookie set";
  }
 
  
