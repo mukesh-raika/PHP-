@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <title>Form Handling width php</title>
+ </head>
+ <body>
+    <form action="./form.php"method="post">
+     <input type="text" name="name" placeholder="enter user name">
+     <br>
+     <br>
+     <input type="email" name="email" placeholder=" enter email">
+     <br>
+     <br>
+     <input type="password" name="password" placeholder="enter password">
+     <br>
+     <br>
+     <input type="checkbox" name="skills[]" value="php"><span>PHP</span>
+     <br>
+     <input type="checkbox" name="skills[]" value="java"><span>JAVA</span>
+     <br>
+     <input type="checkbox" name="skills[]" value="css"><span>CSS</span>
+     <br>
+     <input type="checkbox" name="skills[]" value="react"><span>React</span>
+     <br>
+     <input type="radio" name="gender" value="male"><span>Male</span>
+     <br>
+    <input type="radio" name="gender" value="Female"><span>Female</span>
+    <br>
+    <select name="city">
+        <option>select your city</option>
+         <option value="noida">Noida</option>
+         <option value="Delhi">Delhi</option>
+         <option value="gurgaon">Gurgaon</option>
+    </select>
+    <br>
+    <textarea name="bio"></textarea>
+    <br>
+    <button>Sign Up</button> 
+    </form>
+ </body>
+ </html>
