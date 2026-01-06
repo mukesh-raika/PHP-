@@ -1,7 +1,7 @@
 <?php
 include("./config.php");
 $students= $conn->prepare("select * from students");
-$students->execute();
+$students->execute();   
 $result= $students->fetchAll();
 
 
@@ -16,7 +16,7 @@ foreach($result as $student){
     <td><form method='post'>
     <button name=delete value=".$student['id'].">delete</button>
     </form></td>
-
+    <td><a href='update.php?id=".$student['id']."'>edit</a></td>
     </tr>";
 }
 echo "</table>";
@@ -27,7 +27,7 @@ if(isset($_POST['delete'])){
 if($students->execute());
     echo "record deleted";  
 }else{
-    echo "record not deleted";
+    echo "record not deleted"; 
 }
  
 
