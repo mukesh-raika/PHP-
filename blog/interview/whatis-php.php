@@ -1,13 +1,12 @@
 <?php
-echo "hello world";
-echo "<br>";
-echo "hello";
-echo "<br>";
-echo "world";
-echo "<br>";
-print "hello world";
-echo "<br>";
-print "mukesh";
-echo "<br>";
-print "raika";
+
+echo  "hello","mukesh","hi","";
+echo  "<br>"; 
+print "hello";
+function getName() {
+   echo "Junaid Quarihsi <br>";
+   return "121321";
+}
+
+echo getName();
 ?>
