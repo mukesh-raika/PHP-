@@ -1,29 +1,30 @@
 <?php
-function getName() {
-    return "Mukesh";
-}
-echo getName();
-echo "<br>";
-echo getName();
+// function getName() {
+//     return "Mukesh";
+// }
+// echo getName();
+// echo "<br>";
+// echo getName();
 
 
 
-function outerFunction() {
+// function outerFunction() {
 
-    function innerFunction() {
-        echo "Hello";
-    }
+//     function innerFunction() {
+//         echo "Hello";
+//     }
 
-}
+// }
 
-outerfunction();
-innerfunction();
+// outerfunction();
+// innerfunction();
 
 
-echo "<br>";
+// echo "<br>";
+
 
 function getUserName($name, $age) {
-    return $name;  
+    return $name . "  . $age .  ";
 }
 
 function welcomeUser($a, $b) {
@@ -31,6 +32,7 @@ function welcomeUser($a, $b) {
     return "Welcome " . $name;
 }
 
-echo welcomeUser("Mukesh", 18);
+echo welcomeUser("Mukesh", 19);
 ?>
+
 
