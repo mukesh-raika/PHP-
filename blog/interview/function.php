@@ -24,7 +24,7 @@
 
 
 function getUserName($name, $age) {
-    return $name . "  . $age .  ";
+    return $name . " " . $age . " ";
 }
 
 function welcomeUser($a, $b) {
@@ -34,5 +34,7 @@ function welcomeUser($a, $b) {
 
 echo welcomeUser("Mukesh", 19);
 ?>
+
+
 
 

@@ -1,15 +1,23 @@
 <?php
 class MathOperations{
-function sum(){
-    echo 10+20;
+
+function sum($a,$b){
+    echo $a+$b;
+}
+function multi($a,$b){
+    echo $a*$b;
+}
+
+function sub($a,$b){
+    echo $a-$b;
 }
 }
 
 $maths= new MathOperations();
 
- $maths->sum();
+ $maths->sum(20,30);
  echo "<br>";
- $maths->sum();
-
-
+$maths->multi(70,80);
+echo "<br>";
+$maths->sub(78,8);  
 ?>
