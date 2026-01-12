@@ -1,8 +1,8 @@
 <?php
 
 class UserAuth{
-    function login($userType){
-        echo "$userType logged in ";
+    function login($userTyp){
+        echo "$userTyp logged in ";
     }
 }
 
