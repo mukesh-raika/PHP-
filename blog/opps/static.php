@@ -10,9 +10,4 @@ class Honda{
 Honda::companyName();
 echo Honda::$countryName;
 
-
-
-class Hf{
-    
-}
 ?>
