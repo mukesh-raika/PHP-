@@ -36,5 +36,5 @@ echo "<br>";
 $upload->common();
 
 echo  "<br>";
-$upload->other();
+$upload->other(); 
 ?>
